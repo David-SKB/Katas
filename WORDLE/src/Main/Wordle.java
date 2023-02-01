@@ -8,7 +8,7 @@ public class Wordle {
     public static void main(String[] args){
 
         /*
-        a program, which, given a 5 character string as a target word, and a 5 character string as a guess, return a 5 character string where:
+        A program, which, given a 5 character string as a target word, and a 5 character string as a guess, return a 5 character string where:
 
         ‘2’ = this letter is in this position
         ‘1’ = this letter is in the target word but not this position
