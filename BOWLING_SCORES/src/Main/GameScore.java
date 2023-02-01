@@ -66,7 +66,7 @@ public class GameScore {
 
             if (firstAttempt == strike) {
 
-                // Check subsequent roles to calculate score
+                // Check subsequent frames to calculate score
                 while(currentFrame < gameLength) {
 
                     // Another strike detected
