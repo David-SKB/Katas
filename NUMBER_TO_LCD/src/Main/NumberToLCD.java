@@ -11,6 +11,52 @@ public class NumberToLCD {
          | _| _||_||_ |_   ||_||_|| |
          ||_  _|  | _||_|  ||_| _||_|
         (each digit is 3 lines high)
+
+        Todo: Part 2, variable width/height adjustment (e.g. width = 3 height = 2)
+
+        When height = 1, lines = 3
+        When height = 2, lines = 7
+        when height = 3, lines = 9
+        when height = 4, lines = 11
+
+        formula = ???
+
+        depends on spacers...
+
+        when height is 1 gap is 0
+        when height is 2 gap is 1
+        can I assume when height is 3 gap is 2?
+
+         ___
+            |
+            |
+         ___
+        |
+        |
+         ___
+
+         ___
+            |
+            |
+            |
+         ___
+        |
+        |
+        |
+         ___
+
+         ___
+            |
+            |
+            |
+            |
+         ___
+        |
+        |
+        |
+        |
+         ___
+
          */
 
 
@@ -51,7 +97,7 @@ public class NumberToLCD {
         return result;
     }
 
-    // Helper to retrieve the LCD value for a number
+    // Helper to retrieve the LCD line values for a given number
     public static String[] getNumberLCDLine(char value){
 
         String[] lines  = new String[3];
